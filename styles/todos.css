@@ -1,0 +1,17 @@
+.todo-container {
+  display: flex;
+  justify-content: center;
+  gap: 13%;
+}
+
+.uncomplete-todo,
+.complete-todo {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.delete-button {
+  color: red;
+  cursor: pointer;
+}

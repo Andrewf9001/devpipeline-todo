@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      src="https://kit.fontawesome.com/0760cc3b1b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Todo</title>
+
+    <link href="styles/common.css" rel="stylesheet" type="text/css" />
+    <link href="styles/header.css" rel="stylesheet" type="text/css" />
+    <link href="styles/todos.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="input-header-container">
+      <div class="header-wrapper">
+        <h1>ToDo List</h1>
+      </div>
+
+      <div class="input-container">
+        <form action="" class="form-wrapper">
+          <input id="form-input-one" type="text" />
+          <button id="form-button" onclick="addNewTodo(event)" type="submit">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div class="todo-container">
+      <div class="uncomplete-todos-wrapper">
+        <h1>ToDos:</h1>
+
+        <ul id="uncomplete-list"></ul>
+      </div>
+
+      <div class="completed-list-wrapper">
+        <h1>Completed:</h1>
+
+        <ul id="completed-list">
+          <!-- <li class="complete-todo">
+            <h4>Finished Todo</h4>
+            <div>Delete</div>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
